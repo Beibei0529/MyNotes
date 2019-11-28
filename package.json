@@ -1,0 +1,21 @@
+{
+  "name": "myNotes",
+  "version": "0.0.1",
+  "description": "My study notes",
+  "main": "index.js",
+  "authors": {
+    "name": "beibei",
+    "email": "1743693093@qq.com"
+  },
+  "repository": "/myNotes",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0"
+  }
+}
