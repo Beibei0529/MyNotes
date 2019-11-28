@@ -1,68 +1,86 @@
 const { description } = require('../../package')
 
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: 'Vuepress Docs Boilerplate',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
+  title: 'NoteBook',
   description: description,
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
   themeConfig: {
-    repo: '',
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
     lastUpdated: false,
+    // search: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Html&Css',
+        link: '/Html&Css/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'JavaScript',
+        link: '/JavaScript/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Vue',
+        link: '/Vue/',
+      },
+      {
+        text: 'chrome',
+        link: '/chrome/'
+      },
+      {
+        text: '网络',
+        link: '/网络/',
+      },
+      {
+        text: '算法',
+        link: '/算法/'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/Html&Css/': [
         {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
+          title: 'Html&Css',
+          collapsable: false
+          // children: [
+          //   '',
+          //   'using-vue',
+          // ]
         }
       ],
+      '/JavaScript/': [
+        {
+          title: 'JavaScript',
+          collapsable: false
+        }
+      ],
+      '/Vue/': [
+        {
+          title: 'Vue',
+          collapsable: false
+        }
+      ],
+      '/chrome/': [
+        {
+          title: 'chrome',
+          collapsable: false
+        }
+      ],
+      '/网络/': [
+        {
+          title: '网络',
+          collapsable: false
+        }
+      ],
+      '/算法/': [
+        {
+          title: '算法',
+          collapsable: false
+        }
+      ]
     }
   },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
