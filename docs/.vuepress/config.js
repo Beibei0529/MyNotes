@@ -9,8 +9,8 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   themeConfig: {
-    editLinks: false,
-    lastUpdated: false,
+    // lastUpdated: false,
+    // displayAllHeaders: true,
     // search: false,
     nav: [
       {
@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         text: 'JavaScript',
-        link: '/JavaScript/'
+        link: '../JavaScript/Scope.md'
       },
       {
         text: 'Vue',
@@ -43,23 +43,20 @@ module.exports = {
         {
           title: 'Html&Css',
           collapsable: false
-          // children: [
-          //   '',
-          //   'using-vue',
-          // ]
         }
       ],
       '/JavaScript/': [
-        {
-          title: 'JavaScript',
-          collapsable: false
-        }
+        ['../JavaScript/Scope.md', '作用域(Scope)'],
+        ['../JavaScript/Hoisting.md', '提升(Hoisting)'],
+        ['../JavaScript/Closure.md', '闭包(Closure)'],
+        ['../JavaScript/Prototype.md', '原型（Prototype）'],
+        ['../JavaScript/this.md', 'this'],
+        ['../JavaScript/Promise.md', 'Promise'],
+        ['../JavaScript/EventLoop.md', '事件循环(EventLoop)'],
+        ['../JavaScript/design.md', '设计模式'],
       ],
       '/Vue/': [
-        {
-          title: 'Vue',
-          collapsable: false
-        }
+        ['../Vue/Vue注意事项.md', 'Vue注意事项'],
       ],
       '/chrome/': [
         {
@@ -78,6 +75,9 @@ module.exports = {
           title: '算法',
           collapsable: false
         }
+      ],
+      '/': [
+        '',
       ]
     }
   },
