@@ -26,12 +26,12 @@ module.exports = {
         link: '/Vue/',
       },
       {
-        text: 'chrome',
-        link: '/chrome/'
+        text: 'Chrome',
+        link: '/Chrome/'
       },
       {
         text: '网络',
-        link: '/网络/',
+        link: '/Net/',
       },
       {
         text: '算法',
@@ -40,10 +40,7 @@ module.exports = {
     ],
     sidebar: {
       '/Html&Css/': [
-        {
-          title: 'Html&Css',
-          collapsable: false
-        }
+        ['../Html&Css/Center.md','CSS水平垂直居中']
       ],
       '/JavaScript/': [
         ['../JavaScript/Scope.md', '作用域(Scope)'],
@@ -58,27 +55,23 @@ module.exports = {
       '/Vue/': [
         ['../Vue/Vue注意事项.md', 'Vue注意事项'],
       ],
-      '/chrome/': [
+      '/Chrome/': [
         {
-          title: 'chrome',
+          title: 'Chrome',
           collapsable: false
         }
       ],
-      '/网络/': [
+      '/Net/': [
         {
           title: '网络',
           collapsable: false
         }
       ],
       '/算法/': [
-        {
-          title: '算法',
-          collapsable: false
-        }
-      ],
-      '/': [
-        '',
-      ]
+        ['../算法/Sort.md','常用排序算法'],
+        ['../算法/BinaryTree.md','二叉树'],
+        ['../算法/Common.md','面试常见算法题'],
+      ]  
     }
   },
   plugins: [

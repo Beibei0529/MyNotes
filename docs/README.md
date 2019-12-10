@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: http://img0.imgtn.bdimg.com/it/u=2464078632,917413458&fm=26&gp=0.jpg
+heroImage: ./imgs/home.jpg
 tagline: Life-long learning
 actionText: Let's go →
 actionLink: /Html&Css/
