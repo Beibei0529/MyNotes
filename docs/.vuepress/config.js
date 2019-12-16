@@ -15,7 +15,7 @@ module.exports = {
     nav: [
       {
         text: 'Html&Css',
-        link: '/Html&Css/',
+        link: '/Html&Css/Center.md',
       },
       {
         text: 'JavaScript',
