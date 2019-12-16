@@ -1,9 +1,9 @@
 ---
-home: true
+home: false
 heroImage: ./imgs/home.jpg
 tagline: Life-long learning
 actionText: Let's go →
-actionLink: /Html&Css/
+actionLink: /Html&Css/Center.md
 features:
 - title: Html & Css
   details: Html&Css使用技巧

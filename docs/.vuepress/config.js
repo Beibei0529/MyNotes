@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         text: 'Vue',
-        link: '/Vue/',
+        link: '/Vue/Vue注意事项.md',
       },
       {
         text: 'Chrome',
@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         text: '算法',
-        link: '/算法/'
+        link: '/算法/Sort.md'
       }
     ],
     sidebar: {
